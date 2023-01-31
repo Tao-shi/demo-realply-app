@@ -1,0 +1,176 @@
+* {
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 5em;
+  margin-bottom: 10px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 10%;
+}
+
+.main-contents {
+  width: 550px;
+  height: auto;
+}
+.browser-icons-div {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: row;
+  display: flex;
+  position: relative;
+  justify-content: space-evenly;
+}
+
+.browser-icons {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  padding-top: 30px;
+}
+
+.browser-names {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  /* padding-left:-90px; */
+
+  /* padding-left: 50px; */
+  /* margin-right: 10px; */
+}
+.footer-div {
+  width: 80%;
+}
+
+.footer {
+  margin-top: 15%;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-text {
+  font-size: 2em;
+}
+
+.main-text-div {
+  margin-bottom: 20px;
+}
+
+/*------------------------------------------------*/
+.full-logo-div {
+  margin-top: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.full-logo {
+  width: 320px;
+  height: 320px;
+  background: rgba(255, 255, 255, 0.02);
+  box-shadow: inset 6px 84px 79px -40px rgba(255, 255, 255, 0.024),
+    inset 0px -4px 1px -3px rgba(255, 255, 255, 0.25),
+    inset 0px 4px 1px -3px rgba(255, 255, 255, 0.25);
+  display: flex;
+  position: absolute;
+  border-radius: 70px;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+/*------------------------------------------------*/
+
+.featured-div-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.featured-div {
+  width: 1120px;
+  height: auto;
+  margin-top: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: relative;
+}
+
+/* .featured-div > p {
+  position: relative;
+  width: 96px;
+  height: 24px;
+  top: 0px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+} */
+
+/*------------------------------------------------*/
+.benefits-container {
+  display: flex;
+  margin-top: 300px;
+  height: 769px;
+  width: 1200px;
+  padding: 20px;
+  flex-direction: row;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.benefit-div {
+  flex-direction: column;
+  display: flex;
+  width: 564px;
+  height: 169.59px;
+  float: left;
+}
+
+.benefit-icon {
+  float: left;
+}
+.benefit-heading {
+  width: 243px;
+  height: 32px;
+  float: left;
+}
+
+.benefit-text {
+  width: 552.31px;
+  height: 48px;
+}
+
+/*------------------------------------------------*/
+
+.prospects-container {
+    display:flex;
+  position: relative;
+  flex-direction: column;
+  width: 944px;
+  height: 440px;
+  left: 284px;
+  top: 314px;
+}
+.prospects-left {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.prospects-right {
+  width: 440;
+  height: 440;
+  border-radius: 64px;
+  background-color: brown;
+}
