@@ -1,11 +1,11 @@
 import React from "react";
 
-const Page6 = () => {
+const Page7 = () => {
   return (
     <div className="main">
       <div className="prospects-container">
         <div className="prospects-left">
-          <span>5X Your Lead Flow</span>
+          <span>Convert More Deals</span>
           <p>
             Lorem ipsum dolor sit amet consectetur. Risus sit vel sit in quisque
             neque. Elit amet ut pellentesque purus morbi fringilla. Urna morbi
@@ -18,4 +18,4 @@ const Page6 = () => {
   );
 };
 
-export default Page6;
+export default Page7;

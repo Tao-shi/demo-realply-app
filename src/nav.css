@@ -1,69 +1,77 @@
 * {
-  font-size: medium;
+  font-size: small;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.nav {
+  position: fixed;
+  width: 100%;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
 }
 
 .nav-container {
+  width: 90%;
+  height: 45.69px;
   background-color: rgb(0, 0, 0);
-  position:fixed;
-  width:100%;
-}
-
-.navigation {
-  font-size: medium;
-  background-color: rgb(0, 0, 0);
-  width: 100%;
-  border: 0;
-  padding: 15px;
-  margin-inline: 0px 100px;
   display: flex;
-  justify-content: space-around;
-  position: relative;
+  justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: calc(50% - 45.69px/2 - 1.16px);
 }
-.logo-nav {
-  width: 40px;
-  height: 40px;
+.logo-nav,
+.nav-links,
+.nav-right {
+  display: flex;
+  align-items: center;
 }
-.icons-nav {
-  padding-top: 10px;
-  width: 18px;
-  height: 18px;
-  position: absolute;
-  margin-right: 10px;
-}
-
-.nav-links > a{
+.nav-links a {
   color: white;
   font-size: 1.1em;
-  /* padding-left: 70px;
-  padding-right: 20px; */
   padding-top: 10px;
-  width: 50%;
   text-decoration: none;
-  /* float:left */
 }
-.nav-links{
-    display:flex;
-    justify-content: space-evenly;
-    margin-left: 50px;
-    /* align-items: center; */
-    width:40%
+
+.nav-right a {
+  color: white;
+  font-size: 1.1em;
+  text-decoration: none;
 }
-.button {
+.nav-right button {
   color: black;
   border-radius: 30px;
   background-color: white;
   padding: 12px;
+  background-color: none;
+    width: 150px;
 }
 
 .nav-right {
-float:right;
+  display: flex;
+    /* top: 10px; */
+    justify-content: space-between;
+    margin-right: 40px;
+    width: 16%;
+  
+  }
+  
+  
+  .logo-nav {
+    /* margin-left: 5%; */
+    width: 20%;
+  }
+  
+  .logo-nav img {
+    width: 112px;
+    height: 35px;
 }
-.lang-div > a{
-    margin-left: 30px;
-    margin-right:15px;
-      padding-top: 10px;
-  width: 50%;
-  text-decoration: none;
-   color: white;
-  font-size:1.1em
+.nav-links {
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
 }

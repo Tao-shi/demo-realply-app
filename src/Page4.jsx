@@ -7,14 +7,18 @@ import coldwell from "./svg/coldwell.png";
 
 const Page4 = () => {
   return (
-    <div className="featured-div-container">
-      <div className="featured-div">
-        <p>Trusted Nationwide</p>
-        <img src={remax} />
-        <img src={exit} />
-        <img src={exp} />
-        <img src={keller} />
-        <img src={coldwell} />
+    <div className="main">
+      <div className="trusted-div-container">
+        <div>
+          <span>Trusted Nationwide</span>
+        </div>
+        <div className="trusted-div">
+          <img src={remax} />
+          <img src={exit} />
+          <img src={exp} />
+          <img src={keller} />
+          <img src={coldwell} />
+        </div>
       </div>
     </div>
   );
