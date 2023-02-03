@@ -7,9 +7,9 @@ import coldwell from "./svg/coldwell.png";
 
 const Page4 = () => {
   return (
-    <div className="main">
+    <div className="page4 main">
       <div className="trusted-div-container">
-        <div>
+        <div id="trusted-heading">
           <span>Trusted Nationwide</span>
         </div>
         <div className="trusted-div">

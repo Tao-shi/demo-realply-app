@@ -7,17 +7,17 @@ import usa_today from "./svg/usa_today.png";
 
 const Page2 = () => {
   return (
-    <div className="main">
+    <div className="page2 main">
       <div className="featured-div-container">
-        <div>
+        <div id="featured-heading">
           <span>Featured in</span>
         </div>
         <div className="featured-div">
-          <img src={forbes} />
-          <img src={yahoo} />
-          <img src={entrepreneur} />
-          <img src={business} />
-          <img src={usa_today} />
+          <img src={forbes} alt="forbes" />
+          <img src={yahoo} alt="yahoo" />
+          <img src={entrepreneur} alt="entrepreneur" />
+          <img src={business} alt="business" />
+          <img src={usa_today} alt="usa-today" />
         </div>
       </div>
     </div>

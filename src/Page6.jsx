@@ -2,7 +2,7 @@ import React from "react";
 
 const Page6 = () => {
   return (
-    <div className="main">
+    <div className="page6 main">
       <div className="prospects-container">
         <div className="prospects-left">
           <span>5X Your Lead Flow</span>

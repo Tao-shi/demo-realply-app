@@ -2,7 +2,7 @@ import React from "react";
 
 const Page9 = () => {
   return (
-    <div className="main">
+    <div className="page9 main">
       <div class=" get-started ">
         <div className="get-started-text">
           <span>Get started with Realply today</span>

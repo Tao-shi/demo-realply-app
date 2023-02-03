@@ -1,42 +1,51 @@
 import React from "react";
+import Slide from "react-reveal/Slide";
 
 const BrowserExt = () => {
   return (
-    <div>
-      <div className="main">
-        {/* <div className="footer"> */}
-        <div className="browser-ext-div">
-          <div>
-            <button className="button">Install Extension for Chrome</button>
-          </div>
-          <div className="browser-icons-div">
-            <a href="">
-              <img className="browser-icons" src={chrome} alt="chrome" />
-            </a>
-            <a href="">
-              <img className="browser-icons" src={firefox} alt="firefox" />
-            </a>
-            <a href="">
-              <img className="browser-icons" src={brave} alt="brave" />
-            </a>
-            <a href="">
-              <img className="browser-icons" src={edge} alt="edge" />
-            </a>
-            <a href="">
-              <img className="browser-icons" src={opera} alt="opera" />
-            </a>
-          </div>
-          <div className="browser-names">
-            <span>Chrome</span>
-            <span>Firefox</span>
-            <span>Brave</span>
-            <span>Edge</span>
-            <span>Opera</span>
+    <Slide bottom>
+      <div>
+        <div className="browser-ext">
+          <div className="browser-ext-div">
+            <div>
+              <button className="button">Install Extension for Chrome</button>
+            </div>
+            <div className="browser-icons-div">
+              <div className="browser">
+                <a href="">
+                  <img className="browser-icons" src={chrome} alt="chrome" />
+                </a>
+                <span>Chrome</span>
+              </div>
+              <div className="browser">
+                <a href="">
+                  <img className="browser-icons" src={firefox} alt="firefox" />
+                </a>
+                <span>Firefox</span>
+              </div>
+              <div className="browser">
+                <a href="">
+                  <img className="browser-icons" src={brave} alt="brave" />
+                </a>
+                <span>Brave</span>
+              </div>
+              <div className="browser">
+                <a href="">
+                  <img className="browser-icons" src={edge} alt="edge" />
+                </a>
+                <span>Edge</span>
+              </div>
+              <div className="browser">
+                <a href="">
+                  <img className="browser-icons" src={opera} alt="opera" />
+                </a>
+                <span>Opera</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      {/* </div> */}
-    </div>
+    </Slide>
   );
 };
 

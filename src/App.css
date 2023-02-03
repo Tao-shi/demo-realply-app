@@ -1,7 +1,18 @@
+
 .App {
   text-align: center
 }
 
+* {
+  font-size: small;
+  overflow-x: hidden;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
 
 .App-logo {
   height: 40vmin;

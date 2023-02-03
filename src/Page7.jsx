@@ -2,7 +2,7 @@ import React from "react";
 
 const Page7 = () => {
   return (
-    <div className="main">
+    <div className="page7 main">
       <div className="prospects-container">
         <div className="prospects-left">
           <span>Convert More Deals</span>
