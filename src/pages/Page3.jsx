@@ -1,7 +1,7 @@
 import React from "react";
-import benefit1 from "./svg/benefit_icon1.png";
-import benefit2 from "./svg/benefit_icon2.png";
-import benefit3 from "./svg/benefit_icon3.png";
+import benefit1 from "../svg/benefit_icon1.png";
+import benefit2 from "../svg/benefit_icon2.png";
+import benefit3 from "../svg/benefit_icon3.png";
 
 const Page3 = () => {
   return (

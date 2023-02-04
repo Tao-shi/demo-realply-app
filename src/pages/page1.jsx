@@ -1,5 +1,5 @@
 import React from "react";
-import logobig from "./svg/logo-big.png";
+import logobig from "../svg/logo-big.png";
 
 const PageOne = () => {
   return (

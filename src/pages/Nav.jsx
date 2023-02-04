@@ -1,7 +1,7 @@
 import React from "react";
-import logo1 from "./svg/realply_icon.png";
-import logo2 from "./svg/realply_text.png";
-import icon1 from "./svg/browser-logo.png";
+import logo1 from "../svg/realply_icon.png";
+import logo2 from "../svg/realply_text.png";
+import icon1 from "../svg/browser-logo.png";
 
 function Nav() {
   return (

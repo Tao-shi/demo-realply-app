@@ -1,10 +1,10 @@
 import React from "react";
-import logo from "./svg/realply-logo.png";
-import insta from "./svg/instagram.png";
-import twitter from "./svg/twitter.png";
-import linkedin from "./svg/linkedin.png";
-import fb from "./svg/facebook.png";
-import yt from "./svg/youtube.png";
+import logo from "../svg/realply-logo.png";
+import insta from "../svg/instagram.png";
+import twitter from "../svg/twitter.png";
+import linkedin from "../svg/linkedin.png";
+import fb from "../svg/facebook.png";
+import yt from "../svg/youtube.png";
 
 const Footer = () => {
   return (

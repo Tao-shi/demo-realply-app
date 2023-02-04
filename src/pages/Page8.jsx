@@ -1,9 +1,10 @@
 import React from "react";
-import author1 from "./svg/author1.png";
-import author2 from "./svg/author2.png";
-import author3 from "./svg/author3.png";
-import dot1 from "./svg/dot1.png";
-import dot from "./svg/dot.png";
+import author1 from "../svg/author1.png";
+import author2 from "../svg/author2.png";
+import author3 from "../svg/author3.png";
+import dot1 from "../svg/dot1.png";
+import dot from "../svg/dot.png";
+
 const Page8 = () => {
   return (
     <div className="page8 main">
