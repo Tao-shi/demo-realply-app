@@ -6,9 +6,10 @@ import business from "./svg/business.png";
 import usa_today from "./svg/usa_today.png";
 
 const Page2 = () => {
+
   return (
-    <div className="page2 main">
-      <div className="featured-div-container">
+    <div className=" page2 main">
+      <div data-aos="fade-up" className="featured-div-container">
         <div id="featured-heading">
           <span>Featured in</span>
         </div>

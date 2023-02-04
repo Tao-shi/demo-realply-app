@@ -1,12 +1,11 @@
 import React from "react";
 import "./main.css";
-import Slide from "react-reveal/Slide";
 import Nav from "./Nav";
 
 const Landing = () => {
   return (
     <div className="landing main-container main">
-      <div className="landing-contents">
+      <div data-aos="zoom-in-up" className="landing-contents">
         <div className="landing-headeer">
           <h1 className="landing-heading">10x your LinkedIn on Auto-Pilot</h1>
         </div>
@@ -17,6 +16,9 @@ const Landing = () => {
           </p>
         </div>
         <button className="button">Request a Demo</button>
+        {/* <div className="animate__animated animate__fadeInUp">
+          <Nav />
+        </div> */}
       </div>
     </div>
   );

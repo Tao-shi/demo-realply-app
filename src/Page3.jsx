@@ -5,8 +5,8 @@ import benefit3 from "./svg/benefit_icon3.png";
 
 const Page3 = () => {
   return (
-    <div className="page3 main">
-      <div className="benefits-container">
+    <div className=" page3 main">
+      <div data-aos="fade-up" className="benefits-container">
         <div className="benefit-div">
           <div className="benefit-icon">
             <img src={benefit1} />

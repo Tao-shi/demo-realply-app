@@ -2,21 +2,19 @@ import React from "react";
 import logo1 from "./svg/realply_icon.png";
 import logo2 from "./svg/realply_text.png";
 import icon1 from "./svg/browser-logo.png";
-import Bounce from "react-reveal/Bounce";
-// import "./nav.css";
 
 function Nav() {
   return (
     <nav className="nav ">
       <div className="logo-nav">
-        <Bounce>
-          <img
-            id="logo1"
-            className="logo-nav icons-nav"
-            src={logo1}
-            alt="realply_logo"
-          />
-        </Bounce>
+        {/* <Bounce> */}
+        <img
+          id="logo1"
+          className="animate__animated animate__fadeInBottomRight logo-nav icons-nav"
+          src={logo1}
+          alt="realply_logo"
+        />
+        {/* </Bounce> */}
         <img
           id="logo2"
           className="logo-nav icons-nav"

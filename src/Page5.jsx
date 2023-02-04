@@ -3,7 +3,7 @@ import React from "react";
 const Page5 = () => {
   return (
     <div className="page5 main">
-      <div className="prospects-container">
+      <div data-aos="fade-up" className="prospects-container">
         <div className="prospects-left">
           <span>Target Qualified Prospects</span>
           <p>

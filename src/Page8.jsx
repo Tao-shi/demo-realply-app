@@ -7,7 +7,7 @@ import dot from "./svg/dot.png";
 const Page8 = () => {
   return (
     <div className="page8 main">
-      <div className="testimonials">
+      <div data-aos="fade-up"  className="testimonials">
         <div className="test-heading">
           <span>Loved by the world's best</span>
         </div>
